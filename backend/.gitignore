@@ -1,0 +1,28 @@
+/target
+
+# Rust build directory
+/target/
+
+# Cargo lock file (uncomment if this is a library)
+# Cargo.lock
+
+# Environment variables
+.env
+
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Redis dump file
+dump.rdb
+redis/*.rdb
+
+# Debug files
+*.log
