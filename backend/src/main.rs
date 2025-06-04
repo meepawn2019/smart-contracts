@@ -4,7 +4,6 @@ extern crate rocket;
 use dotenv::dotenv;
 use rocket_cors::CorsOptions;
 
-mod models;
 mod routes;
 mod services;
 
